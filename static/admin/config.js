@@ -46,15 +46,21 @@ const postDefaults = {
  * Add new collections here.
  */
 const collections = [{
-  ...docsDefaults('', 'docbook/images/general'), // content directory, image directory
+  ...docsDefaults('', ''), // content directory, image directory
   name: 'docs',
   label: 'Documentation',
   description: 'Top level pages in documentation.',
   format: 'frontmatter',
   create: false,
+}, {
+    ...docsDefaults('overview', ''),
+    name: 'overview',
+    label: 'Overview',
+    label_singular: 'page in Overview section',
+    description: 'All pages relating to Overview',
 }];
 
-const cms_branch = window.location.hostname.includes('develop') ? 'develop' : 'master';
+const cms_branch = window.location.hostname.includes('develop') ? 'develop' : 'master'; // Additional config for a develop branch and develop site
 
 const config = {
   backend: {
