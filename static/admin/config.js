@@ -53,11 +53,12 @@ const collections = [{
   format: 'frontmatter',
   create: false,
 }, {
-    ...docsDefaults('overview', ''),
+    ...docsDefaults('Overview', ''),
     name: 'overview',
     label: 'Overview',
     label_singular: 'page in Overview section',
     description: 'All pages relating to Overview',
+    format: 'frontmatter',
 }];
 
 const cms_branch = window.location.hostname.includes('develop') ? 'develop' : 'master'; // Additional config for a develop branch and develop site
