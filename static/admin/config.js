@@ -53,13 +53,6 @@ const collections = [{
   format: 'frontmatter',
   create: false,
 }, {
-    ...docsDefaults('Overview', ''),
-    name: 'overview',
-    label: 'Overview',
-    label_singular: 'page in Overview section',
-    description: 'All pages relating to Overview',
-    format: 'frontmatter',
-}, {
     ...docsDefaults('shared_services', 'shared_services'),
     name: 'shared_services',
     label: 'AMPLIFY Shared Services documentation',
