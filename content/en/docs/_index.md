@@ -23,6 +23,6 @@ All contributions are first published on Axway Open Documentation, and shortly a
 
 ## AMPLIFY Shared Services documentation
 
-This website contains the entire documentation set for AMPLIFY Shared Services. 
+This website contains the entire documentation set for AMPLIFY Shared Services.
 
 Browse all documentation for AMPLIFY Shared Services under the top-level [AMPLIFY Shared Services](/docs/shared_services/) item in the left navigation menu.
