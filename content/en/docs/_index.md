@@ -16,7 +16,7 @@ The Open Beta enables you to suggest edits and create issues for any page of the
 
 The role of each documentation website in the Open Beta is as follows:
 
-* Axway Open Documentation on Netlify (<https://axway-open-docs.netlify.app/>) - Specific product documentation sets are available on this website for collaboration using GitHub and Netlify CMS.
+* Axway Open Documentation on Netlify (<https://axway-open-docs.netlify.app/>) - Specific product documentation sets are available on this website for contribution using GitHub and Netlify CMS.
 * Axway Documentation Portal (<https://docs.axway.com/>) - All Axway documentation is available on this website in read-only format.
 
 All contributions are first published on Axway Open Documentation, and shortly after on the Axway Documentation Portal, so that the latest documentation is always available on both websites.
