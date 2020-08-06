@@ -5,7 +5,6 @@ weight: 25
 date: 2020-03-05
 description: Add a note to an existing Axway Support case.
 ---
-
 ## Request
 
 **Endpoint**: `https://apis.axway.com/support/note`
@@ -15,6 +14,8 @@ description: Add a note to an existing Axway Support case.
 Add Note requests come in two forms: [simple](#add-note-simple) and [full](#add-note-full).
 Simple requests allow you to send just the note information. Full requests allow you to attach files.
 
+this is a test of the cms
+
 ### Add Note - Simple
 
 Send the note information directly as the HTTP entity-body.
@@ -23,9 +24,9 @@ Send the note information directly as the HTTP entity-body.
 
 **Parameters**:
 
-| Name | Type | Data Type                                       | Required | Allow Multiple | Description |
-|------|------|-------------------------------------------------|----------|----------------|-------------|
-| n/a  | body | [CaseNote](/docs/shared_services/supportapi/formats/add_note_req/#casenote) |      yes |             no | Details of the note to be added. |
+| Name | Type | Data Type                                                                   | Required | Allow Multiple | Description                      |
+| ---- | ---- | --------------------------------------------------------------------------- | -------- | -------------- | -------------------------------- |
+| n/a  | body | [CaseNote](/docs/shared_services/supportapi/formats/add_note_req/#casenote) | yes      | no             | Details of the note to be added. |
 
 **Example**:
 
@@ -45,10 +46,10 @@ Each part of the request entity must contain a Content-Disposition header field.
 
 **Parameters**:
 
-| Name        | Type      | Data Type                                        | Required | Allow Multiple | Description |
-|-------------|-----------|--------------------------------------------------|----------|----------------|-------------|
-| initializer | body part | [CaseNote](/docs/shared_services/supportapi/formats/add_note_req/#casenote)  |      yes |             no | Details of the case to be created. |
-| attachment  | body part | file                                             |       no |            yes | File to attach to the case. |
+| Name        | Type      | Data Type                                                                   | Required | Allow Multiple | Description                        |
+| ----------- | --------- | --------------------------------------------------------------------------- | -------- | -------------- | ---------------------------------- |
+| initializer | body part | [CaseNote](/docs/shared_services/supportapi/formats/add_note_req/#casenote) | yes      | no             | Details of the case to be created. |
+| attachment  | body part | file                                                                        | no       | yes            | File to attach to the case.        |
 
 Constraints:
 
@@ -103,14 +104,14 @@ Add note with attachments example.
 
 **Content**:
 
-| Type | Data Type                                       | Description |
-|------|-------------------------------------------------|-------------|
+| Type | Data Type                                                                   | Description                |
+| ---- | --------------------------------------------------------------------------- | -------------------------- |
 | body | [CaseNote](/docs/shared_services/supportapi/formats/add_note_res/#casenote) | Details of the added note. |
 
 ### Unsuccessful responses
 
 **Content**:
 
-| Type | Data Type                                     | Description |
-|------|-----------------------------------------------|-------------|
+| Type | Data Type                                                                | Description                         |
+| ---- | ------------------------------------------------------------------------ | ----------------------------------- |
 | body | [ErrorResponse](/docs/shared_services/supportapi/formats/error_response) | Details of the error that occurred. |
