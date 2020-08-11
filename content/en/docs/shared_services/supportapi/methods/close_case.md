@@ -3,7 +3,7 @@ title: Close Case
 linkTitle: Close Case
 weight: 20
 date: 2020-03-05
-description: Close an existing Axway Support case.
+description: Close an existing Axway Support case. another test from cms
 ---
 
 ## Request
