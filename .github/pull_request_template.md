@@ -1,4 +1,4 @@
-Thank you for your contribution to the Axway-Open-Docs repo.
+Thank you for your contribution.
 
 ## Describe the changes
 
