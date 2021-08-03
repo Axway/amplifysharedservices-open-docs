@@ -8,7 +8,7 @@ description: List cases, business service requests and customer enhancement requ
 
 ## Request
 
-**Endpoint**: `https://apis.axway.com/support/case`
+**Endpoint**: `https://sphereapi.admin.axway.com/sphere/api/v1/case`
 
 **HTTP verb**: `GET`
 

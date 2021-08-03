@@ -8,7 +8,7 @@ description: Get the details of an existing Axway Support case.
 
 ## Request
 
-**Endpoint**: `https://apis.axway.com/support/case/{id}`
+**Endpoint**: `https://sphereapi.admin.axway.com/sphere/api/v1/case/{id}`
 
 **HTTP verb**: `GET`
 

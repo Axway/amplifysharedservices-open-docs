@@ -7,7 +7,7 @@ hide_readingtime: true
 description: The Support API methods enable applications to access or open new support cases, retrieve information about the accessible support accounts as well as purchased or subscribed-to products and services.
 ---
 
-Base URL: [https://apis.axway.com/support](https://apis.axway.com/support).
+Base URL: [https://sphereapi.admin.axway.com/sphere/api/v1](https://sphereapi.admin.axway.com/sphere/api/v1).
 
 ### Before you contact Axway Support
 

@@ -8,7 +8,7 @@ description: Get all products associated with a support account.
 
 ## Request
 
-**Endpoint**: `https://apis.axway.com/support/product`
+**Endpoint**: `https://sphereapi.admin.axway.com/sphere/api/v1/product`
 
 **HTTP verb**: `GET`
 

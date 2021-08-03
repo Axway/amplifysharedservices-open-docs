@@ -8,7 +8,7 @@ description: Get all support accounts associated with the authenticated user.
 
 ## Request
 
-**Endpoint**: `https://apis.axway.com/support/account`
+**Endpoint**: `https://sphereapi.admin.axway.com/sphere/api/v1/account`
 
 **HTTP verb**: `GET`
 
