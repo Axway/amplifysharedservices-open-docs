@@ -65,16 +65,14 @@ Each error class is accompanied by a specific HTTP status code. The table below 
 ```
 HTTP/1.1 403 Forbidden
 Date: Wed, 10 Aug 2019 05:49:16 GMT
-Via: 1.0 39233c900349 (AMPLIFY Sphere API)
-Max-Forwards: 18
-Content-Length: 132
 Connection: keep-alive
-Strict-Transport-Security: max-age=3153600; includeSubDomains
+Strict-Transport-Security: max-age=15724800; includeSubDomains
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Troubleshooting-ID: dc8a785d4e41fe925fb204f9
 X-XSS-Protection: 1; mode=block
+X-Troubleshooting-ID: dc8a785d4e41fe925fb204f9
 Content-Type: application/json
+Content-Length: 132
 
 {
     "code": "ACCESS_DENIED",
