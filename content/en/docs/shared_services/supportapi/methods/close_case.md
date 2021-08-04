@@ -8,7 +8,7 @@ description: Close an existing Axway Support case.
 
 ## Request
 
-**Endpoint**: `https://apis.axway.com/support/case`
+**Endpoint**: `https://sphereapi.admin.axway.com/sphere/api/v1/case`
 
 **HTTP verb**: `DELETE`
 

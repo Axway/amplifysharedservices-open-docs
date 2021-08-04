@@ -8,7 +8,7 @@ description: Create a new support case or customer enhancement request.
 
 ## Request
 
-**Endpoint**: `https://apis.axway.com/support/case`
+**Endpoint**: `https://sphereapi.admin.axway.com/sphere/api/v1/case`
 
 **HTTP verb**: `POST`
 

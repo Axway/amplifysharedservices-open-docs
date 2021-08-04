@@ -8,7 +8,7 @@ description: Add a note to an existing Axway Support case.
 
 ## Request
 
-**Endpoint**: `https://apis.axway.com/support/note`
+**Endpoint**: `https://sphereapi.admin.axway.com/sphere/api/v1/note`
 
 **HTTP verb**: `POST`
 

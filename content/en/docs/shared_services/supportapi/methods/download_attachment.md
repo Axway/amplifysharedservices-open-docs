@@ -8,7 +8,7 @@ description: Download files attached to a specific support case or a support cas
 
 ## Request
 
-**Endpoint**: `https://apis.axway.com/support/attachment`
+**Endpoint**: `https://sphereapi.admin.axway.com/sphere/api/v1/attachment`
 
 **HTTP verb**: `GET`
 
