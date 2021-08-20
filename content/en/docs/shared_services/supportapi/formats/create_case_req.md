@@ -18,8 +18,8 @@ description: Request format for the Create Case method.
 | environment   | [Environment](/docs/shared_services/supportapi/formats/environment) |       no | Environment for which this case is created. |
 | impact        | [Impact](#impact)             |       no | Impact level. |
 | urgency       | [Urgency](/docs/shared_services/supportapi/formats/urgency)         |       no | Urgency level. |
-| type          | [CaseType](#casetype)         |      yes | The type of this case. Default: `Support Case`. |
-| targetDate    | string                        |      yes | Applicable when the case is a business service request. Sending 'targetDate' with other case types results in an error. See the full classification [here](/docs/shared_services/supportapi/formats/target_date). |
+| type          | [CaseType](/docs/shared_services/supportapi/formats/case_type)         |      yes | The type of this case. Default: `Support Case`. |
+| targetDate    | string                        |      yes | Applicable when the case is a business service request. Sending 'targetDate' with other case types results in an error. See more details [here](/docs/shared_services/supportapi/formats/target_date). |
 | ccEmails      | [ string ]                    |      yes | E-mail addresses to be copied in communications regarding this case. |
 
 ### Impact
@@ -34,13 +34,6 @@ Impact levels supported in Create Case requests to the API, as an open-ended enu
 
 For details on the different enumeration elements, please refer to [Impact](/docs/shared_services/supportapi/formats/impact).
 
-### CaseType
-
-Case types supported in Create Case requests to the API, as an open-ended enumeration.
-
-* **Data Type**: string
-
-See also the full classification [here](/docs/shared_services/supportapi/formats/case_type).
 
 ### Product
 
