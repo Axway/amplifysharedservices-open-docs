@@ -11,3 +11,4 @@ description: Classification of case types, as an open-ended enumeration.
     * Support Case
     * Enhancement Request
     * Business Service Request
+    * Security Issue
