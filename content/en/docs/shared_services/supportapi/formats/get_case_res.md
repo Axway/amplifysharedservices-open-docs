@@ -29,6 +29,7 @@ description: Response format for the Get Case method.
 | attachments   | [ [Attachment](#attachment) ] |      yes | Summary information about the files attached to this case. |
 | ccEmails      | [ string ]                    |      yes | E-mail addresses copied in communications regarding this case. |
 | type          | [CaseType](/docs/shared_services/supportapi/formats/case_type)      |       no | The type of this case. |
+| targetDate    | string                        |      yes | Available when the case is a business service request. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-format-for-responses). |
 | customerEnhancementRequest | [CustomerEnhancementRequest](#customerenhancementrequest) | no | Present if and only if this case is an Enhancement Request and any related details are available. |
 
 ### CustomerEnhancementRequest
