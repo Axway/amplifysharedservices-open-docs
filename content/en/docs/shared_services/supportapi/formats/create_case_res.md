@@ -16,7 +16,7 @@ description: Response format for the Create Case method.
 | status        | string                        |       no | The current status of this case. |
 | createdDate   | string                        |       no | Date and time of case creation. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-and-time-format-for-responses). |
 | modifiedDate  | string                        |       no | Date and time of the latest update. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-and-time-format-for-responses). |
-| targetDate    | string                        |      yes | Available when the case is a business service request. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-and-time-format-for-responses). |
+| targetDate    | string                        |      yes | Available when the case is a business service request. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-format-for-responses). |
 | contact       | [Contact](#contact)           |       no | Current contact for this case. |
 | owner         | [Contact](#contact)           |      yes | The current owner of this case. |
 | product       | [Product](#product)           |       no | Product for which this case was created. |
