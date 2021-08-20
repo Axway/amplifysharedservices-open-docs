@@ -34,7 +34,6 @@ Impact levels supported in Create Case requests to the API, as an open-ended enu
 
 For details on the different enumeration elements, please refer to [Impact](/docs/shared_services/supportapi/formats/impact).
 
-
 ### Product
 
 {{% alert title="Note" %}}
