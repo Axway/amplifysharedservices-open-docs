@@ -16,7 +16,7 @@ Example: `2020-03-11T08:38:11.000+0000`.
 
 ### Common Date Format for Responses
 
-All date instances in responses share the same format, as per profile of ISO 8601[RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339#ref-ISO8601).
+All date instances in responses share the same format, as per profile of ISO 8601 at [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339#ref-ISO8601).
 
 Format: `date`, with `full-date` utilizing the `date-fullyear "-" date-month "-" date-mday` definition.
 
