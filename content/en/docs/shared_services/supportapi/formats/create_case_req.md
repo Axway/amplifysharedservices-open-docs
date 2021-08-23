@@ -11,7 +11,7 @@ description: Request format for the Create Case method.
 | Property Name | Data Type                     | Optional | Description |
 |---------------|-------------------------------|----------|-------------|
 | sac           | string                        |       no | Support access code. |
-| contact       | string                        |       no | The e-mail of the contact. The 'contact' property is required for requests that use the [OAuthApplication security scheme](https://sphereapi.admin.axway.com/sphere/api/v1/). |
+| contact       | string                        |       no | The e-mail of the contact. Required for requests that use the [OAuthApplication security scheme](https://sphereapi.admin.axway.com/sphere/api/v1/). |
 | subject       | string                        |       no | Brief description of this case. |
 | description   | string                        |       no | Detailed description of this case. |
 | product       | [Product](#product)           |       no | Affected product. |
@@ -19,7 +19,7 @@ description: Request format for the Create Case method.
 | impact        | [Impact](#impact)             |       no | Impact level. |
 | urgency       | [Urgency](/docs/shared_services/supportapi/formats/urgency)         |       no | Urgency level. |
 | type          | [CaseType](/docs/shared_services/supportapi/formats/case_type)         |      yes | The type of this case. Default: `Support Case`. |
-| targetDate    | string                        |      yes | Applicable when the case is a business service request. Sending 'targetDate' with other case types results in an error. See more details [here](/docs/shared_services/supportapi/formats/target_date). |
+| targetDate    | string                        |      yes | Applicable when the case is a business service request. Sending `targetDate` with other case types results in an error. See more details [here](/docs/shared_services/supportapi/formats/target_date). |
 | ccEmails      | [ string ]                    |      yes | E-mail addresses to be copied in communications regarding this case. |
 
 ### Impact
