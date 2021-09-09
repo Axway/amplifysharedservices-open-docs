@@ -14,6 +14,14 @@ Format: `date-time`, with `time-offset` utilizing the `time-numoffset` definitio
 
 Example: `2020-03-11T08:38:11.000+0000`.
 
+### Common Date Format for Responses
+
+All date instances in responses share the same format, as per profile of ISO 8601 at [RFC 3339](https://tools.ietf.org/html/rfc3339#section-5.6).
+
+Format: `full-date` utilizing the `date-fullyear "-" date-month "-" date-mday` definition.
+
+Example: `2024-05-21`.
+
 ### Common Date and Time Format for Requests
 
 All date-time instances in requests need to adhere to the following format, as per [RFC 3339](https://tools.ietf.org/html/rfc3339#section-5.6).

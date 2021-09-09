@@ -16,6 +16,7 @@ description: Response format for the Close Case method.
 | closedDate    | string                        |      yes | Date and time of case closure. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-and-time-format-for-responses). |
 | createdDate   | string                        |       no | Date and time of case creation. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-and-time-format-for-responses). |
 | modifiedDate  | string                        |       no | Date and time of the latest update. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-and-time-format-for-responses). |
+| targetDate    | string                        |      yes | Available when the case is a business service request. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-format-for-responses). |
 | severity      | [Severity](/docs/shared_services/supportapi/formats/severity)       |       no | The severity level calculated for this case. |
 | account       | [Account](#account)           |       no | Details of the Axway customer account that case is registered with. |
 | contact       | [Contact](#contact)           |       no | Current contact for this case. |
