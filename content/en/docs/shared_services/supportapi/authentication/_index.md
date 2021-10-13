@@ -10,7 +10,7 @@ description: Learn how to authenticate your requests to the API.
 The API requires an access token to be included in each request.
 
 Access tokens can be obtained using a service account added in the Amplify Platform.
-For details on how to add a service account, please refer to [Managing service accounts](https://docs.axway.com/bundle/Amplify_Platform_Management_allOS_en/page/managing_organizations.html#ManagingOrganizations-service_accountsManagingserviceaccounts).
+For details on how to add a service account, please refer to [Managing service accounts](https://docs.axway.com/bundle/platform-management/page/docs/management_guide/organizations/managing_organizations/index.html#managing-service-accounts).
 
 #### Obtain an access token
 
