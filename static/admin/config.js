@@ -55,9 +55,9 @@ const collections = [{
 }, {
     ...docsDefaults('shared_services', 'shared_services'),
     name: 'shared_services',
-    label: 'AMPLIFY Shared Services documentation',
-    label_singular: 'page in AMPLIFY Shared Services section',
-    description: 'All pages relating to AMPLIFY Shared Services.',
+    label: 'Amplify Shared Services documentation',
+    label_singular: 'page in Amplify Shared Services section',
+    description: 'All pages relating to Amplify Shared Services.',
     format: 'frontmatter',
   }, {
     ...docsDefaults('shared_services/supportapi', 'shared_services/supportapi'),

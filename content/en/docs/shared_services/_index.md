@@ -1,9 +1,9 @@
 ---
-title: AMPLIFY Shared Services documentation
-linkTitle: AMPLIFY Shared Services
+title: Amplify Shared Services documentation
+linkTitle: Amplify Shared Services
 weight: 180
 date: 2020-03-05
 hide_readingtime: true
-description: Learn about AMPLIFY Shared Services.
+description: Learn about Amplify Shared Services.
 ---
 
