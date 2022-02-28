@@ -33,7 +33,8 @@ Send the note information directly as the HTTP entity-body.
 {
     "description": "A sample description.",
     "subject": "Add case note via Axway Support Portal API.",
-    "caseId": "00######"
+    "caseId": "00######",
+    "contact": "example@axway.com"
 }
 ```
 
@@ -66,7 +67,7 @@ Connection: <omitted>
 Authorization: <omitted>
 Accept: <omitted>
 User-Agent: <omitted>
-Content-Length: 828
+Content-Length: 863
 Content-Type: multipart/form-data; boundary=c-SaFVSu9pm0M-ZO7FhYhfWbdXO9HeRbKgVVfoJ
 
 --c-SaFVSu9pm0M-ZO7FhYhfWbdXO9HeRbKgVVfoJ
@@ -77,7 +78,8 @@ Content-Transfer-Encoding: binary
 {
   "description": "A note with attachments added at note-creation tome.",
   "subject": "Add note with attachments.",
-  "caseId": "00######"
+  "caseId": "00######",
+  "contact": "example@axway.com"
 }
 
 --c-SaFVSu9pm0M-ZO7FhYhfWbdXO9HeRbKgVVfoJ

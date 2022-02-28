@@ -28,7 +28,8 @@ The affected case is marked closed and not deleted from our systems.
 {
     "caseId": "00######",
     "subject": "Closure of case Example Case",
-    "description": "Closing Example Case as it was resolved after feedback from Axway RnD."
+    "description": "Closing Example Case as it was resolved after feedback from Axway RnD.",
+    "contact": "example@axway.com"
 }
 ```
 

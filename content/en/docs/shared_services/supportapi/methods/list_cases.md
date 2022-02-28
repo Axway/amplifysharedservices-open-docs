@@ -165,6 +165,43 @@ Please note that the default ordering is unspecified and can vary over time.
 }
 ```
 
+#### List cases by support access code, case type, and case status
+
+All unclosed business service requests.
+
+```json
+{
+  "statuses": {
+    "exclude": [
+      "Closed"
+    ]
+  },
+  "types": {
+    "include": [
+      "Business Service Request"
+    ]
+  }
+}
+```
+
+All closed support cases.
+
+```json
+{
+  "statuses": {
+    "include": [
+      "Closed"
+    ]
+  },
+  "types": {
+    "exclude": [
+      "Business Service Request",
+      "Enhancement Request"
+    ]
+  }
+}
+```
+
 ## Response
 
 **HTTP status code**: 200

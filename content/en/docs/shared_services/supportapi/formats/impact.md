@@ -10,7 +10,7 @@ description: Classification of impact levels, as an open-ended enumeration.
 * **Enumeration Elements**:
     * 1 - Critical
     * 2 - High
-    * 3 - Mediums
+    * 3 - Medium
     * 4 - Low
 
 #### 1 - Critical

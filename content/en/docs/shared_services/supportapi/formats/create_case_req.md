@@ -29,7 +29,7 @@ Impact levels supported in Create Case requests to the API, as an open-ended enu
 * **Data Type**: string
 * **Enumeration Elements**:
     * 2 - High
-    * 3 - Mediums
+    * 3 - Medium
     * 4 - Low
 
 For details on the different enumeration elements, please refer to [Impact](/docs/shared_services/supportapi/formats/impact).
