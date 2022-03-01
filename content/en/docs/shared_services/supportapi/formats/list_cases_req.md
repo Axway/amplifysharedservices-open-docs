@@ -14,6 +14,7 @@ description: Request format for the List Cases method.
 | updated       | [TimeSpan](#timespan) |      yes | Get cases updated within the specified time span. |
 | sac           | string                |      yes | Get cases for the specified support access code. |
 | types         | [IncludeCaseTypes](#includecasetypes) or [ExcludeCaseTypes](#excludecasetypes) | yes | Get cases of the specified types. |
+| statuses      | [IncludeCaseStatuses](#includecasestatuses) or [ExcludeCaseStatuses](#excludecasestatuses) | yes | Get cases according to the specified case statuses. |
 
 ### TimeSpan
 
@@ -41,3 +42,31 @@ An open-ended list of case types that are supported in a List Cases filter.
 * **Data Type**: string
 * **Enumeration Elements**:
     * Enhancement Request
+    * Business Service Request
+
+### IncludeCaseStatuses
+
+| Property Name | Data Type                     | Optional | Description |
+|---------------|-------------------------------|----------|-------------|
+| include       | [ [CaseStatus](#casestatus) ] |       no | Filter-in cases in the specified statuses. Filter out all others. The list of statuses must not be empty and must contain unique elements. |
+
+### ExcludeCaseStatuses
+
+| Property Name | Data Type                     | Optional | Description |
+|---------------|-------------------------------|----------|-------------|
+| exclude       | [ [CaseStatus](#casestatus) ] |       no | Filter-out cases in the specified statuses.  The list of statuses must not be empty and must contain unique elements. |
+
+### CaseStatus
+
+An open-ended list of case statuses that are supported in a List Cases filter.
+
+* **Data Type**: string
+* **Enumeration Elements**:
+    * In Support
+    * Customer Owns Next Steps
+    * In Escalation
+    * Ready for Deployment
+    * In R&D
+    * R&D Delivery
+    * Pending Closure
+    * Closed

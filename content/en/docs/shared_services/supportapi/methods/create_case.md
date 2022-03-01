@@ -34,6 +34,7 @@ Send the case information directly as the HTTP entity-body.
     "ccEmails": [
         "example@axway.com"
     ],
+    "contact": "example@axway.com",
     "description": "Sample Support API",
     "environment": "Production",
     "product": {
@@ -87,7 +88,7 @@ Connection: <omitted>
 Authorization: <omitted>
 Accept: <omitted>
 User-Agent: <omitted>
-Content-Length: 1072
+Content-Length: 1106
 Content-Type: multipart/form-data; boundary=Gwj2nucD55htH10Ze0INOW5HHZ-X8GpyR
 
 --Gwj2nucD55htH10Ze0INOW5HHZ-X8GpyR
@@ -99,6 +100,7 @@ Content-Transfer-Encoding: binary
   "ccEmails": [
     "example@axway.com"
   ],
+  "contact": "example@axway.com",
   "description": "A case with files attached to it at case-creation time.",
   "environment": "Production",
   "product": {
