@@ -62,11 +62,11 @@ An open-ended list of case statuses that are supported in a List Cases filter.
 
 * **Data Type**: string
 * **Enumeration Elements**:
-  * In Support
-  * Customer Owns Next Steps
-  * In Escalation
-  * Ready for Deployment
-  * In R&D
-  * R&D Delivery
-  * Pending Closure
-  * Closed
+    * In Support
+    * Customer Owns Next Steps
+    * In Escalation
+    * Ready for Deployment
+    * In R&D
+    * R&D Delivery
+    * Pending Closure
+    * Closed
