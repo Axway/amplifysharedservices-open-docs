@@ -165,7 +165,7 @@ Please note that the default ordering is unspecified and can vary over time.
 }
 ```
 
-#### List cases by support access code, case type, and case status
+#### List cases by case type and case status
 
 All unclosed business service requests.
 
