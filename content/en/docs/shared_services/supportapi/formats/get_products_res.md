@@ -12,8 +12,8 @@ description: Response format for the Get Products method.
 |------------------|---------------------------------------|----------|-------------|
 | id               | string                                |       no | Identifier of this product for the purposes of Axway Support case management. |
 | name             | string                                |       no | The name of the product.
-| versions         | [ [ProductVersion](#productversion) ] |       no | Supported versions of the product. |
-| operatingSystems | [ [ProductOs](#productos) ]           |       no | Supported host operating systems for the product. |
+| versions         | [ProductVersion](#productversion) (array) |       no | Supported versions of the product. |
+| operatingSystems | [ProductOs](#productos) (array)           |       no | Supported host operating systems for the product. |
 
 ### ProductVersion
 

@@ -20,7 +20,7 @@ description: Request format for the Create Case method.
 | urgency       | [Urgency](/docs/shared_services/supportapi/formats/urgency)         |       no | Urgency level. |
 | type          | [CaseType](/docs/shared_services/supportapi/formats/case_type)         |      yes | The type of this case. Default: `Support Case`. |
 | targetDate    | string                        |      yes | Applicable when the case is a business service request. Sending `targetDate` with other case types results in an error. See more details [here](/docs/shared_services/supportapi/formats/target_date). |
-| ccEmails      | [ string ]                    |      yes | E-mail addresses to be copied in communications regarding this case. |
+| ccEmails      | string (array)                    |      yes | E-mail addresses to be copied in communications regarding this case. |
 
 ### Impact
 
