@@ -41,7 +41,7 @@ The affected case is marked closed and not deleted from our systems.
 
 | Type | Data Type                                     | Description |
 |------|-----------------------------------------------|-------------|
-| body | [ [Case](/docs/shared_services/supportapi/formats/close_case_res/#case) ] | Details of the closed case. |
+| body | [Case](/docs/shared_services/supportapi/formats/close_case_res/#case) (array) | Details of the closed case. |
 
 ### Unsuccessful responses
 
