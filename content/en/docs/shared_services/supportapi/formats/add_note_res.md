@@ -14,7 +14,7 @@ description: Response format for the Add Note method.
 | subject       | string                        |       no | Title or subject of this note. |
 | description   | string                        |       no | Detailed information included in this note. |
 | addedDate     | string                        |       no | Date and time of note creation. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-and-time-format-for-responses).|
-| attachments   | [ [Attachment](#attachment) ] |      yes | Summary information about the files attached to this note. |
+| attachments   | [Attachment](#attachment) (array) |      yes | Summary information about the files attached to this note. |
 | createdBy     | string                        |      yes | The creator of this note. |
 
 ### Attachment

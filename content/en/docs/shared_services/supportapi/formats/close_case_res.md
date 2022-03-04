@@ -23,10 +23,10 @@ description: Response format for the Close Case method.
 | owner         | [Contact](#contact)           |      yes | The current owner of this case. |
 | description   | string                        |       no | Detailed description of this case. |
 | environment   | [Environment](/docs/shared_services/supportapi/formats/environment) |       no | Environment for which this case is created. |
-| notes         | [ [CaseNote](#casenote) ]     |      yes | List of all case notes attached to this case. |
+| notes         | [CaseNote](#casenote) (array)     |      yes | List of all case notes attached to this case. |
 | product       | [Product](#product)           |       no | Product for which this case was created. |
-| attachments   | [ [Attachment](#attachment) ] |      yes | Summary information about the files attached to this case. |
-| ccEmails      | [ string ]                    |      yes | E-mail addresses copied in communications regarding this case. |
+| attachments   | [Attachment](#attachment) (array) |      yes | Summary information about the files attached to this case. |
+| ccEmails      | string (array)                    |      yes | E-mail addresses copied in communications regarding this case. |
 | type          | [CaseType](/docs/shared_services/supportapi/formats/case_type)      |       no | The type of this case. |
 
 ### Account
@@ -51,7 +51,7 @@ description: Response format for the Close Case method.
 | description     | string                        |       no | Detailed information included in this note. |
 | addedDate       | string                        |       no | Date and time of case note creation. |
 | createdBy       | string                        |      yes | Name of the creator of this note. |
-| noteAttachments | [ [Attachment](#attachment) ] |      yes | List of files attached to this case note. |
+| noteAttachments | [Attachment](#attachment) (array) |      yes | List of files attached to this case note. |
 
 ### Product
 
@@ -59,7 +59,7 @@ description: Response format for the Close Case method.
 |---------------|-----------------------------------|----------|-------|
 | id            | string                            |       no | Identifier of this product for the purposes of Axway Support case management. |
 | name          | string                            |       no | The name of the affected product. |
-| os            | [ProductOs](#productos)           |       no | Operating system on which the product is run.. |
+| os            | [ProductOs](#productos)           |       no | Operating system on which the product is run. |
 | version       | [ProductVersion](#productversion) |       no | Version of the affected product. |
 | patch         | string                            |      yes | Service pack or patch in effect. Free form text. |
 

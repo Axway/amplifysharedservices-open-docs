@@ -26,7 +26,7 @@ description: Get all products associated with a support account.
 
 | Type | Data Type                                             | Description |
 |------|-------------------------------------------------------|-------------|
-| body | [ [Product](/docs/shared_services/supportapi/formats/get_products_res/#product) ] | List of products for the specified support access code. |
+| body | [Product](/docs/shared_services/supportapi/formats/get_products_res/#product) (array) | List of products for the specified support access code. |
 
 ### Examples
 

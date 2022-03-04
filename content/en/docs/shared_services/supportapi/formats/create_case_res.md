@@ -21,13 +21,13 @@ description: Response format for the Create Case method.
 | owner         | [Contact](#contact)           |      yes | The current owner of this case. |
 | product       | [Product](#product)           |       no | Product for which this case was created. |
 | environment   | [Environment](/docs/shared_services/supportapi/formats/environment) |       no | Environment for which this case is created. |
-| notes         | [ [CaseNote](#casenote) ]     |      yes | List of case notes automatically attached to this case on case creation. |
+| notes         | [CaseNote](#casenote) (array)     |      yes | List of case notes automatically attached to this case on case creation. |
 | impact        | [Impact](#impact)             |       no | Impact level. |
 | urgency       | [Urgency](/docs/shared_services/supportapi/formats/urgency)         |       no | Urgency level. |
 | type          | [CaseType](/docs/shared_services/supportapi/formats/case_type)      |       no | The type of this case. |
 | description   | string                        |       no | Detailed description of this case. |
-| ccEmails      | [ string ]                    |      yes | E-mail addresses copied in communications regarding this case. |
-| attachments   | [ [Attachment](#attachment) ] |      yes | Summary information about the files attached to this case. |
+| ccEmails      | string (array)                    |      yes | E-mail addresses copied in communications regarding this case. |
+| attachments   | [Attachment](#attachment) (array) |      yes | Summary information about the files attached to this case. |
 | account       | [Account](#account)           |       no | Details of the Axway customer account that case is registered with. |
 | closedDate    | string                        |      yes | Date and time of case closure. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-and-time-format-for-responses). |
 

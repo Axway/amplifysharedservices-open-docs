@@ -20,7 +20,7 @@ description: Get all support accounts associated with the authenticated user.
 
 | Type | Data Type                                             | Description |
 |------|-------------------------------------------------------|-------------|
-| body | [ [Account](/docs/shared_services/supportapi/formats/get_accounts_res/#account) ] | List of accounts for which the authenticated user can open new or access existing support cases. |
+| body | [Account](/docs/shared_services/supportapi/formats/get_accounts_res/#account) (array) | List of accounts for which the authenticated user can open new or access existing support cases. |
 
 ### Examples
 

@@ -27,13 +27,13 @@ description: Request format for the List Cases method.
 
 | Property Name | Data Type                 | Optional | Description |
 |---------------|---------------------------|----------|-------------|
-| include       | [ [CaseType](#casetype) ] |       no | Filter-in the specified case types. Filter out all others. The list of types must not be empty and must contain unique elements. |
+| include       | [CaseType](#casetype) (array) |       no | Filter-in the specified case types. Filter out all others. The list of types must not be empty and must contain unique elements. |
 
 ### ExcludeCaseTypes
 
 | Property Name | Data Type                 | Optional | Description |
 |---------------|---------------------------|----------|-------------|
-| exclude       | [ [CaseType](#casetype) ] |       no | Filter-out the specified case types.  The list of types must not be empty and must contain unique elements. |
+| exclude       | [CaseType](#casetype) (array) |       no | Filter-out the specified case types.  The list of types must not be empty and must contain unique elements. |
 
 ### CaseType
 
@@ -48,13 +48,13 @@ An open-ended list of case types that are supported in a List Cases filter.
 
 | Property Name | Data Type                     | Optional | Description |
 |---------------|-------------------------------|----------|-------------|
-| include       | [ [CaseStatus](#casestatus) ] |       no | Filter-in cases in the specified statuses. Filter out all others. The list of statuses must not be empty and must contain unique elements. |
+| include       | [CaseStatus](#casestatus) (array) |       no | Filter-in cases in the specified statuses. Filter out all others. The list of statuses must not be empty and must contain unique elements. |
 
 ### ExcludeCaseStatuses
 
 | Property Name | Data Type                     | Optional | Description |
 |---------------|-------------------------------|----------|-------------|
-| exclude       | [ [CaseStatus](#casestatus) ] |       no | Filter-out cases in the specified statuses.  The list of statuses must not be empty and must contain unique elements. |
+| exclude       | [CaseStatus](#casestatus) (array) |       no | Filter-out cases in the specified statuses.  The list of statuses must not be empty and must contain unique elements. |
 
 ### CaseStatus
 

@@ -24,10 +24,10 @@ description: Response format for the Get Case method.
 | owner         | [Contact](#contact)           |      yes | The current owner of this case. |
 | description   | string                        |       no | Detailed description of this case. |
 | environment   | [Environment](/docs/shared_services/supportapi/formats/environment) |       no | Environment for which this case is created. |
-| notes         | [ [CaseNote](#casenote) ]     |      yes | List of all case notes attached to this case. |
+| notes         | [CaseNote](#casenote) (array)     |      yes | List of all case notes attached to this case. |
 | product       | [Product](#product)           |       no | Product for which this case was created. |
-| attachments   | [ [Attachment](#attachment) ] |      yes | Summary information about the files attached to this case. |
-| ccEmails      | [ string ]                    |      yes | E-mail addresses copied in communications regarding this case. |
+| attachments   | [Attachment](#attachment) (array) |      yes | Summary information about the files attached to this case. |
+| ccEmails      | string (array)                    |      yes | E-mail addresses copied in communications regarding this case. |
 | type          | [CaseType](/docs/shared_services/supportapi/formats/case_type)      |       no | The type of this case. |
 | targetDate    | string                        |      yes | Available when the case is a business service request. [Format](/docs/shared_services/supportapi/formats/miscellaneous/#common-date-format-for-responses). |
 | customerEnhancementRequest | [CustomerEnhancementRequest](#customerenhancementrequest) | no | Present if and only if this case is an Enhancement Request and any related details are available. |
@@ -105,4 +105,4 @@ An open-ended enumeration.
 | description     | string                        |       no | Detailed information included in this note. |
 | addedDate       | string                        |       no | Date and time of case note creation. |
 | createdBy       | string                        |      yes | Name of the creator of this note. |
-| noteAttachments | [ [Attachment](#attachment) ] |      yes | Summary information about the files attached to this case note. |
+| noteAttachments | [Attachment](#attachment) (array) |      yes | Summary information about the files attached to this case note. |
