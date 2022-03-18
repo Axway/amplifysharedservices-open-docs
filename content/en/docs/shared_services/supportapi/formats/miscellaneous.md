@@ -3,9 +3,8 @@ title: Miscellaneous
 linkTitle: Miscellaneous
 weight: 1000
 date: 2020-03-05
+description: Miscellaneous commonly used formats.
 ---
-
-Miscellaneous commonly used formats.
 
 ### Common Date and Time Format for Responses
 

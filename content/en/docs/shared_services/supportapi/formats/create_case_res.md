@@ -3,9 +3,8 @@ title: CreateCaseResponse
 linkTitle: CreateCaseResponse
 weight: 42
 date: 2020-03-05
+description: Response format for the Create Case method.
 ---
-
-Response format for the Create Case method.
 
 ### Case
 

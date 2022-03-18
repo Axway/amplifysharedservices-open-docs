@@ -3,9 +3,8 @@ title: Get Products
 linkTitle: Get Products
 weight: 35
 date: 2020-03-05
+description: Get all products associated with a support account.
 ---
-
-Get all products associated with a support account.
 
 ## Request
 

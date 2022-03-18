@@ -3,9 +3,8 @@ title: Urgency
 linkTitle: Urgency
 weight: 20
 date: 2020-03-05
+description: Classification of urgency levels, as an open-ended enumeration.
 ---
-
-Classification of urgency levels, as an open-ended enumeration.
 
 * **Data Type**: string
 * **Enumeration Elements**:

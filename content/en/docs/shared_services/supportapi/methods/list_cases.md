@@ -3,9 +3,8 @@ title: List Cases
 linkTitle: List Cases
 weight: 5
 date: 2020-03-05
+description: List cases, business service requests and customer enhancement requests.
 ---
-
-List cases, business service requests and customer enhancement requests.
 
 ## Request
 

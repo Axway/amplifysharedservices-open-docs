@@ -3,9 +3,8 @@ title: GetAccountsResponse
 linkTitle: GetAccountsResponse
 weight: 60
 date: 2020-03-05
+description: Response format for the Get Accounts method.
 ---
-
-Response format for the Get Accounts method.
 
 ### Account
 

@@ -3,9 +3,8 @@ title: CloseCaseResponse
 linkTitle: CloseCaseResponse
 weight: 47
 date: 2020-03-05
+description: Response format for the Close Case method.
 ---
-
-Response format for the Close Case method.
 
 ### Case
 

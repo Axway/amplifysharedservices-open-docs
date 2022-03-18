@@ -3,9 +3,8 @@ title: AddNoteResponse
 linkTitle: AddNoteResponse
 weight: 52
 date: 2020-03-05
+description: Response format for the Add Note method.
 ---
-
-Response format for the Add Note method.
 
 ### CaseNote
 

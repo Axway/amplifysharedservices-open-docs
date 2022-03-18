@@ -3,9 +3,8 @@ title: AddNoteRequest
 linkTitle: AddNoteRequest
 weight: 50
 date: 2020-03-05
+description: Request format for the Add Note method.
 ---
-
-Request format for the Add Note method.
 
 ### CaseNote
 

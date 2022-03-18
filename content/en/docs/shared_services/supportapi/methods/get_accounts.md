@@ -3,9 +3,8 @@ title: Get Accounts
 linkTitle: Get Accounts
 weight: 40
 date: 2020-03-05
+description: Get all support accounts associated with the authenticated user.
 ---
-
-Get all support accounts associated with the authenticated user.
 
 ## Request
 

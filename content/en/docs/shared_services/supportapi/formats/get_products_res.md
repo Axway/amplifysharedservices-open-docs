@@ -3,9 +3,8 @@ title: GetProductsResponse
 linkTitle: GetProductsResponse
 weight: 55
 date: 2020-03-05
+description: Response format for the Get Products method.
 ---
-
-Response format for the Get Products method.
 
 ### Product
 

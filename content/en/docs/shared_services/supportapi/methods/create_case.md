@@ -3,9 +3,8 @@ title: Create Case
 linkTitle: Create Case
 weight: 15
 date: 2020-03-05
+description: Create a new support case or customer enhancement request.
 ---
-
-Create a new support case or customer enhancement request.
 
 ## Request
 

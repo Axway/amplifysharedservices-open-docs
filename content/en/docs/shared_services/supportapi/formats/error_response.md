@@ -3,9 +3,8 @@ title: ErrorResponse
 linkTitle: ErrorResponse
 weight: 995
 date: 2020-03-05
+description: Error response format.
 ---
-
-Error response format.
 
 ### Format
 

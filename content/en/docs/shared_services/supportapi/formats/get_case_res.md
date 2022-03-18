@@ -3,9 +3,8 @@ title: GetCaseResponse
 linkTitle: GetCaseResponse
 weight: 35
 date: 2020-03-05
+description: Response format for the Get Case method.
 ---
-
-Response format for the Get Case method.
 
 ### Case
 

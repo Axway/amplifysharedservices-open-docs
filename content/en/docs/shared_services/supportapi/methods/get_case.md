@@ -3,9 +3,8 @@ title: Get Case by ID
 linkTitle: Get Case
 weight: 10
 date: 2020-03-05
+description: Get the details of an existing Axway Support case.
 ---
-
-Get the details of an existing Axway Support case.
 
 ## Request
 
