@@ -3,8 +3,9 @@ title: CreateCaseRequest
 linkTitle: CreateCaseRequest
 weight: 40
 date: 2020-03-05
-description: Request format for the Create Case method.
 ---
+
+Request format for the Create Case method.
 
 ### Case
 

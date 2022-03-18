@@ -3,8 +3,9 @@ title: Download Attachment
 linkTitle: Download Attachment
 weight: 30
 date: 2020-03-05
-description: Download files attached to a specific support case or a support case note.
 ---
+
+Download files attached to a specific support case or a support case note.
 
 ## Request
 

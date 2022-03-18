@@ -3,8 +3,9 @@ title: ListCasesResponse
 linkTitle: ListCasesResponse
 weight: 32
 date: 2020-03-05
-description: Response format for the List Cases method.
 ---
+
+Response format for the List Cases method.
 
 ### Cases
 

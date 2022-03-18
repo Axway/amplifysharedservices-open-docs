@@ -3,8 +3,9 @@ title: CloseCaseRequest
 linkTitle: CloseCaseRequest
 weight: 45
 date: 2020-03-05
-description: Request format for the Close Case method.
 ---
+
+Request format for the Close Case method.
 
 ### CaseNote
 
