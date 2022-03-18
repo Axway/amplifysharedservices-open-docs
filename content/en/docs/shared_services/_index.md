@@ -7,4 +7,3 @@ hide_readingtime: true
 ---
 
 Learn about Amplify Shared Services.
-
