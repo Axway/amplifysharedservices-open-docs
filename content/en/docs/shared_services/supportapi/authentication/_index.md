@@ -4,7 +4,6 @@ linkTitle: Authentication
 weight: 20
 date: 2021-08-03
 hide_readingtime: true
-description: Learn how to authenticate your requests to the API.
 ---
 
 The API requires an access token to be included in each request.

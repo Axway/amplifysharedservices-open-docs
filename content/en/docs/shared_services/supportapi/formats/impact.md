@@ -3,8 +3,9 @@ title: Impact
 linkTitle: Impact
 weight: 15
 date: 2020-03-05
-description: Classification of impact levels, as an open-ended enumeration.
 ---
+
+Classification of impact levels, as an open-ended enumeration.
 
 * **Data Type**: string
 * **Enumeration Elements**:

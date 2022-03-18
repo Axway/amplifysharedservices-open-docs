@@ -3,8 +3,9 @@ title: Add Note
 linkTitle: Add Note
 weight: 25
 date: 2020-03-05
-description: Add a note to an existing Axway Support case.
 ---
+
+Add a note to an existing Axway Support case.
 
 ## Request
 

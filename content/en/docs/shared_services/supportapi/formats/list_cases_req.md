@@ -3,8 +3,9 @@ title: ListCasesRequest
 linkTitle: ListCasesRequest
 weight: 30
 date: 2020-03-05
-description: Request format for the List Cases method.
 ---
+
+Request format for the List Cases method.
 
 ### Filter
 
