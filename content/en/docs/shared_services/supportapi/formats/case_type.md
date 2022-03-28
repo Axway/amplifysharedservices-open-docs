@@ -1,7 +1,7 @@
 ---
 title: CaseType
 linkTitle: CaseType
-weight: 5
+weight: 80
 date: 2020-03-05
 ---
 
