@@ -62,7 +62,7 @@ Constraints:
 The example below shows a request to add a note and attach two files to it, README.TXT and EXAMPLE.TXT.
 
 ```
-POST /support/note HTTP/1.1
+POST /sphere/api/v1/note HTTP/1.1
 Host: <omitted>
 Connection: <omitted>
 Authorization: <omitted>

@@ -1,7 +1,7 @@
 ---
 title: Severity
 linkTitle: Severity
-weight: 10
+weight: 100
 date: 2020-03-05
 ---
 
