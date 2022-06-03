@@ -24,6 +24,7 @@
 #     if they change
 #   - 
 #
+set -e
 
 DEBUG=${DEBUG:-false}
 MODE=dev
@@ -170,3 +171,4 @@ function fRunHugo() {
 fCheckoutSubmodule
 fMergeContent
 fRunHugo
+echo "[INFO] Done."
