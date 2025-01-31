@@ -51,7 +51,8 @@ Send the case information directly as the HTTP entity-body.
     "sac": "NNNNNN",
     "impact" : "4 - Low",
     "urgency" : "3 - Low",
-    "subject": "Sample Support API"
+    "subject": "Sample Support API",
+    "externalNumber": "INC12345"
 }
 ```
 
