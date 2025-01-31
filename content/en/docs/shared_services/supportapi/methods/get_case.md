@@ -78,6 +78,14 @@ Get the details of an existing Axway Support case.
     },
     "attachments": [],
     "type": "Support Case",
+    "externalNumber": "INC12345",
+    "jiraIssues": [{
+            "id": "a1#####",
+            "linkToJiraIssue": "<a href=\https://jiraqa.axway.com/browse/#####\ target=\"_blank\">#####</a>",
+            "name": "#####",
+            "project": " Activator ",
+            "status": "Status"
+        }
 }
 ```
 
