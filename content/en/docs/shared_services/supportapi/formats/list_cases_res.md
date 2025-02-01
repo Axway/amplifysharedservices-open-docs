@@ -11,7 +11,7 @@ Response format for the List Cases method.
 
 | Property Name | Data Type             | Optional | Description |
 |---------------|-----------------------|----------|-------------|
-| totalCount    | integer   | yes | The total count of cases matching the specified filter criteria. This does not reflect the length of the array of cases provided in the response. **Format**: `int32`. **Minimum**: 0.
+| totalCount    | integer   | yes | The total count of cases matching the specified filter criteria. This does not reflect the length of the array of cases provided in the response. **Format**: `int32`. **Minimum**: 0. |
 | limit         | integer | no | The limit used to restrict the number of cases in the response. **Format**: int32. **Minimum**: 0. **Maximum**: 20. |
 | offset        | integer | no | Numeric offset of the first element in the provided array of cases. **Format**: int32. **Minimum**: 0. |
 | cases         | [Case](#case) (array) | no | Cases matching the specified filter criteria. |
