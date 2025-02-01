@@ -16,7 +16,7 @@ Create a new support case or customer enhancement request.
 Create Case requests come in two forms: [simple](#create-case-simple) and [full](#create-case-full).
 Simple requests allow you to send just the case information. Full requests allow you to attach files.
 
-### Create Case - Simple
+### Create Case Simple
 
 Send the case information directly as the HTTP entity-body.
 
@@ -56,7 +56,7 @@ Send the case information directly as the HTTP entity-body.
 }
 ```
 
-### Create Case - Full
+### Create Case Full
 
 Allows for optionally attaching files at the time of case creation.
 {{% alert title="Note" %}}
