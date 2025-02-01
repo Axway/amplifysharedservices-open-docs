@@ -12,7 +12,7 @@ Response format for the Get Products method.
 | Property Name    | Data Type                             | Optional | Description |
 |------------------|---------------------------------------|----------|-------------|
 | id               | string                                |       no | Identifier of this product for the purposes of Axway Support case management. |
-| name             | string                                |       no | The name of the product.
+| name             | string                                |       no | The name of the product. |
 | versions         | [ProductVersion](#productversion) (array) |       no | Supported versions of the product. |
 | operatingSystems | [ProductOs](#productos) (array)           |       no | Supported host operating systems for the product. |
 

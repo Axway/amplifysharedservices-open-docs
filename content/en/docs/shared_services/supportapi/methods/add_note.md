@@ -16,7 +16,7 @@ Add a note to an existing Axway Support case.
 Add Note requests come in two forms: [simple](#add-note-simple) and [full](#add-note-full).
 Simple requests allow you to send just the note information. Full requests allow you to attach files.
 
-### Add Note - Simple
+### Add Note Simple
 
 Send the note information directly as the HTTP entity-body.
 
@@ -39,7 +39,7 @@ Send the note information directly as the HTTP entity-body.
 }
 ```
 
-### Add Note - Full
+### Add Note Full
 
 Allows for optionally attaching files to the case note.
 

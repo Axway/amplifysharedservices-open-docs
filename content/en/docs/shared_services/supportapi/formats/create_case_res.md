@@ -23,7 +23,7 @@ Response format for the Create Case method.
 | product       | [Product](#product)           |       no | Product for which this case was created. |
 | environment   | [Environment](/docs/shared_services/supportapi/formats/environment) |       no | Environment for which this case is created. |
 | notes         | [CaseNote](#casenote) (array)     |      yes | List of case notes automatically attached to this case on case creation. |
-| impact        | [Impact](#impact)             |       no | Impact level. |
+| impact        | [Impact](/docs/shared_services/supportapi/formats/impact)             |       no | Impact level. |
 | urgency       | [Urgency](/docs/shared_services/supportapi/formats/urgency)         |       no | Urgency level. |
 | type          | [CaseType](/docs/shared_services/supportapi/formats/case_type)      |       no | The type of this case. |
 | description   | string                        |       no | Detailed description of this case. |
