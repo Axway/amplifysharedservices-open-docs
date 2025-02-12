@@ -29,6 +29,10 @@ Get the details of an existing Axway Support case.
 |------|---------------------------------------------|-------------|
 | body | [Case](/docs/shared_services/supportapi/formats/get_case_res/#case) (array) | Detailed case information. |
 
+{{% alert title="Note" %}}
+`"jiraIssues"` is available only for internal use (only for Axway employees).
+{{% /alert %}}
+
 ### Examples
 
 ```json
